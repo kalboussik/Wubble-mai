@@ -1,3 +1,6 @@
+
+
+```mermaid
 flowchart TB
 
     %% UI Layer
@@ -31,3 +34,4 @@ flowchart TB
     UI <-->|HTTP / WebSocket| APP
     SERIAL <-->|TCP| BRIDGE
     BRIDGE <-->|USB| USB
+```
